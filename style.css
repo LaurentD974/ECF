@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  h1 {
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .criter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    margin: 10px 15px;
+
+  }
+  .rangeContainer {
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    margin: 10px 15px;
+  }
+}
+body {
+  background: rgb(248, 245, 245);
+}
+  .pokeCard {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 5px;
+    height: 280px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+    .pokecard:hover {
+  box-shadow: 10 8px 16px rgba(0, 0, 0, 0.06);
+    h3 {
+      padding: 15px 15px;
+    }
+    img {
+  height: 150px;
+    }
+    img:hover {
+      transition: transform 1s ease;
+      transform: scale(1.1);
+    }
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      margin: 5px;
+    }
+  }
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  img {
+    width: 200px;
+    height: 300px;
+  }
+}

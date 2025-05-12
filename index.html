@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pokemon</title>
+  </head>
+  <header>
+    <h1>Pokedex</h1>
+    <div class="criter">
+      <div>
+        <input
+          type="text"
+          name="pokeName"
+          id="inputPokeName"
+          placeholder="Search by name..."
+        />
+      </div>
+      <div class="rangeContainer">
+        <input
+          type="range"
+          name="inputPokeRange"
+          id="inputPokeRange"
+          min="0"
+          max="5"
+          step="1"
+          value="3"
+        />
+        <span id="displayPokeRange">3</span>
+        <!-- <select id="SortFilter">
+          <option value="">--Sort--</option>
+          <option value="nameAz">Name A=>Z</option>
+          <option value="nameZa">Name Z=>A</option>
+          <option value="heightPlus">Height +</option>
+          <option value="heightMoins">Height -</option>
+        </select> -->
+
+        <button id="nameAz">A-Z</button>
+        <button id="nameZa">Z-A</button>
+        <button id="heightPlus">Height +</button>
+        <button id="heightMoins">Height -</button>
+      </div>
+    </div>
+  </header>
+  <body>
+    <main></main>
+  </body>
+  <script src="script.js"></script>
+</html>
